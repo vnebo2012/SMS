@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nikolay.sms_10.SMSActivity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:background="#ededed">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Введіть номер, №"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            android:alpha="0.5"
+            android:layout_marginLeft="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:numeric="decimal"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:background="#ff0000"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Лійка душа"
+            android:id="@+id/liyka"
+            android:layout_weight="1"
+            android:textColor="#020202"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Забитий умивальник"
+            android:id="@+id/umivalnik"
+            android:layout_weight="1"
+            android:textColor="#020202"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Забитий унітаз"
+            android:id="@+id/unitaz"
+            android:layout_weight="1"
+            android:textColor="#020202"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бачок"
+            android:id="@+id/bashok"
+            android:layout_weight="1"
+            android:textColor="#020202"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_name"
+            android:layout_weight="1"
+            android:textColor="#020202"
+            android:text="Шланг душа"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/voda"
+            android:layout_weight="1"
+            android:text="Тече вода"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout5"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Лампочка в кімнаті"
+            android:id="@+id/lam_kimn"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:background="#999898"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Лампочка туалет"
+            android:id="@+id/lam_tua"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:background="#999898"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout5"
+        android:id="@+id/linearLayout6"
+        android:backgroundTint="#ffffff">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Розетка"
+            android:id="@+id/rozetka"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#999898"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мухі в плафоні"
+            android:id="@+id/myxi"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#999898"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout7"
+        android:backgroundTint="#ffffff">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pult"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:text="Немає пульта"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#999898"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tele"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:text="Телевізор"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#999898"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout7"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout8"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#ffffff">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поломане ліжко"
+            android:id="@+id/ligko"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Замок"
+            android:id="@+id/button14"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout8"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout9">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ланцюжок дверей"
+            android:id="@+id/cep"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рушникотримач"
+            android:id="@+id/rushnikotrimash"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout10">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Паперотримач"
+            android:id="@+id/paperotrimash"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button18"
+            android:layout_weight="1"
+            android:textColor="#010101"
+            android:text="Поломаний стіл"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:background="#b3b3b3"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout10"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="+380971191404"
+            android:id="@+id/tvTel1"
+            android:textSize="9dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="+380971191404"
+            android:id="@+id/tvTel2"
+            android:textSize="9dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="+380971191404"
+            android:id="@+id/tvTel3"
+            android:textSize="9dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="+380971191404"
+            android:id="@+id/tvTel4"
+            android:textSize="9dp"
+            android:layout_weight="1"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</RelativeLayout>
