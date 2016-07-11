@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_3c44620a805488215e4ee3563d4b49b0ca0f2dda.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_f6c118cc629454e84e5d079d2853f37f408de23d.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_577b1fb59b9c3e55a2ad3001eda4a7be21e1a0a2.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_6d4b2b2cf7785a57247db906088ca1083cc03562.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_b5885e540ce324744af6b8aa97c9315100222e55.jar" />
+    </item>
+    <item
+        jar="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/nikolay/AndroidStudioProjects/SMS_1.0/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_33b32ef61783e8224f1208921d517c29f2971a21.jar" />
+    </item>
+
+</items>
