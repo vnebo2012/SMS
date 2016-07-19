@@ -16,6 +16,7 @@ public class SMSActivity extends Activity {
    // private TextView txt_tel3;
    // private TextView txt_tel4;
 
+
     private TextView numi1;
     private TextView numi2;
     private TextView numi3;
